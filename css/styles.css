@@ -23,6 +23,7 @@ img {
     width: 1158px;
     box-sizing: content-box;
     padding: 0 15px 0 15px;
+    margin: 0;
 }
 .section{
     display: flex;
@@ -45,6 +46,7 @@ img {
 .header-nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding: 24px 0;
     gap: 40px;
 }
@@ -57,7 +59,7 @@ img {
     justify-content: end;
     flex-direction: row;
     align-items: center;
-    padding: 24px 15px 332px;
+    gap: 40px;
 }
 .nav-link {
 gap: 40px;
@@ -74,6 +76,7 @@ margin-right: 0;
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    padding: 24px 0;
 }
 .logo-part, .nav-link {
         color: #2e2f42;
