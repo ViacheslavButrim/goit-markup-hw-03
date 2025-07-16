@@ -20,7 +20,7 @@ img {
     display: block;
 }
 .container {
-    max-width: 1158px;
+    width: 1158px;
     box-sizing: content-box;
     padding: 0 15px 0 15px;
 }
@@ -58,8 +58,9 @@ img {
     padding: 24px 15px 332px;
 }
 .nav-link {
-padding-left: 40px;
+gap: 40px;
 align-items: center;
+margin-right: 0;
 
 }
 .logo {
@@ -84,6 +85,7 @@ align-items: center;
 }
 
 .nav-item {
+    align-items: center;
     margin-right: 40px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -91,9 +93,6 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}
-.nav-link {
-    margin-right: 0;
 }
 
 .contact-link {
@@ -121,8 +120,12 @@ align-items: center;
     background-color:#2e2f42;
 }
 .head-h {
-    max-width: 496px;
-    font-family: "Roboto", sans-serif;
+    display: flex;
+        align-items: center;
+        width: 496px;
+        height: 120px;
+        padding: 188px 331px 292px 331px;
+        font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 56px;
         line-height: 107%;
@@ -130,9 +133,7 @@ align-items: center;
         text-align: center;
         color: #fff;
 }
-.question {
-    max-width: 496px;
-}
+
 .text {
     display: flex;
     padding: 188px 331px 292px 331px;
