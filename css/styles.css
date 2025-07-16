@@ -221,15 +221,14 @@ img {
     gap: 24px;
     padding-left: 15px;
     padding-top: 56.43px; 
+    width: calc((100% - 3 * 24px) / 4);
 }
 .team-list {
-    width: calc((100% - 3 * 24px) / 4);
-    border-radius: 0px 0px 4px 4px;
+     border-radius: 0px 0px 4px 4px;
 }
 .team {
     padding: 32px 0;
 }
-
 
 .head-item {
     margin-bottom: 8px;
@@ -279,7 +278,7 @@ img {
     border-top: none;
 }
 .photo-styles {
-    width: calc ((100%- 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-list {
     margin-bottom: 8px;
@@ -288,7 +287,7 @@ img {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2e2f42
+        color: #2e2f42;
 }
 .portfolio-item {
     font-family: "Roboto", sans-serif;
