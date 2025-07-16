@@ -219,11 +219,9 @@ img {
 .image-list {
     display: flex;
     gap: 24px;
-    padding-left: 15px;
-    padding-top: 56.43px; 
-    width: calc((100% - 3 * 24px) / 4);
 }
 .team-list {
+     width: calc((100% - 3 * 24px) / 4);
      border-radius: 0px 0px 4px 4px;
 }
 .team {
@@ -269,8 +267,6 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
-    row-gap: 48px;
-    padding-left: 15px;
 }
 .photo-text {
     padding: 32px 16px;
