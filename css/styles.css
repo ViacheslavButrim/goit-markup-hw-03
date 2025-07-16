@@ -35,6 +35,7 @@ img {
     width: 1158px;
     height: 72px;
     border-bottom: 1px solid #e7e9fc;
+    margin: 0 auto;
 }
 .head-container {
     display: flex;
@@ -44,11 +45,12 @@ img {
 .header-nav {
     display: flex;
     flex-direction: row;
-    padding: 24px 0 24px;
+    padding: 24px 0;
+    gap: 40px;
 }
 .header-list {
     display: flex;
-    margin-right: 40px;
+    gap: 40px;
 }
 .contact-item {
     display: flex;
@@ -110,19 +112,15 @@ margin-right: 0;
     color: #404bbf;
 }
 
-
-
-
-
 /* section one */
 
 .section-color{
+    padding: 188px 0;
     background-color:#2e2f42;
 }
 .head-h {
     display: flex;
-        align-items: center;
-        width: 496px;
+        max-width: 496px;
         height: 120px;
         padding: 188px 331px 292px 331px;
         font-family: "Roboto", sans-serif;
@@ -175,6 +173,9 @@ margin-right: 0;
     padding: 120px 0 120px;
     
 }
+.list-c {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
 .head-list {
     margin-bottom: 8px;
     font-family: "Roboto", sans-serif;
@@ -203,9 +204,7 @@ margin-right: 0;
     white-space: nowrap;
     border: 0;
  }
- .list-two {
-    width: calc((100% - 3 * 24px) / 4);
- }
+ 
 /* section three */
 .image-list {
     display: flex;
@@ -259,7 +258,7 @@ margin-right: 0;
         text-align: center;
         color: #434455;
 }
-.mark, .tomford, .camila, .daniel {
+.team {
     padding: 32px 0;
 }
 /* section four*/
