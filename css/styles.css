@@ -20,9 +20,7 @@ img {
     display: block;
 }
 .container {
-    display: block;
     width: 1158px;
-    box-sizing: content-box;
     padding: 0 15px 0 15px;
     margin: 0 auto;
 }
@@ -37,12 +35,10 @@ img {
     width: 1158px;
     height: 72px;
     border-bottom: 1px solid #e7e9fc;
+    margin: 0 auto;
 }
 .head-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     flex-direction: row;
     height: 72px;
     border-bottom: 1px solid #e7e9fc;
