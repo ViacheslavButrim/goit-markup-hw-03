@@ -32,16 +32,13 @@ img {
    
 }
 /* header section */
-.page-header {
-    width: 1158px;
-    height: 72px;
-    border-bottom: 1px solid #e7e9fc;
-    margin: 0 auto;
-}
+
 .head-container {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    border-bottom: 1px solid #e7e9fc;
+       
 }
 .header-nav {
     display: flex;
