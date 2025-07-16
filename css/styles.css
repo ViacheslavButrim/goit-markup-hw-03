@@ -82,6 +82,7 @@ img {
     gap: 40px;
     align-items: center;
     margin-right: 0;
+    padding: 24px 0;
 
 }
 .nav-link:hover, .nav-link:focus {
@@ -93,6 +94,7 @@ img {
     flex-direction: row;
     align-items: center;
     padding: 24px 15px;
+    gap: 40px;
 }
 .contact-list {
     padding-right: 40px;
@@ -172,6 +174,9 @@ img {
     gap: 24px;
     padding: 120px 0 120px;
     
+}
+.list-c {
+    width: calc((100% - 3 * 24px) / 4);
 }
 .head-list {
     margin-bottom: 8px;
